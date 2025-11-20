@@ -24,3 +24,30 @@
 .gambar img {
   margin-right: 100px;
 }
+.navbar.scrolling-active {
+  background-color: var(--warna-primer);
+  transition: 1s;
+}
+.image {
+  max-width: 100px;
+}
+:root {
+  --warna-primer: #091121;
+  --warna-sekunder: #151d2d;
+}
+.tentang {
+  background: var(--warna-primer);
+}
+.about {
+  background: var(--warna-sekunder);
+}
+.layanan {
+  background: var(--warna-primer);
+}
+.alasan div:hover {
+  transition: 0.5 ease;
+  transform: scale(1.1);
+}
+.navbar div {
+  cursor: pointer;
+}
