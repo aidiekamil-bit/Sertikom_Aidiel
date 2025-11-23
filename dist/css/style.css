@@ -22,11 +22,14 @@
   margin-right: 100px;
 }
 .gambar img {
-  margin-right: 100px;
+  padding-left: px;
 }
 .navbar.scrolling-active {
   background-color: var(--warna-primer);
-  transition: 1s;
+  transition: 0.5s;
+}
+.navbar{
+  transition: 0.5s;
 }
 .image {
   max-width: 100px;
@@ -34,20 +37,54 @@
 :root {
   --warna-primer: #091121;
   --warna-sekunder: #151d2d;
+  --warna-tersier:  #ffffff1a;
 }
 .tentang {
   background: var(--warna-primer);
 }
 .about {
   background: var(--warna-sekunder);
+
 }
 .layanan {
   background: var(--warna-primer);
 }
 .alasan div:hover {
-  transition: 0.5 ease;
+  transition: 0.5s ease-in-out;
   transform: scale(1.1);
+}
+.alasan div{
+  transition: 0.5s;
+  height: 300px;
+ align-items: center;
 }
 .navbar div {
   cursor: pointer;
+}
+.label div{
+  width:70%;
+  height: 40%;
+ border-radius: 15px;
+ padding: 30px;
+ background-color: #ffffff1a;
+ margin-left: 170px;
+ text-align: center;
+ margin-top: 20px;
+}
+.label4 {
+background: var(--warna-tersier);
+text-align: center;
+height:40%;
+width: 70%;
+}
+.label5{
+  background: var(--warna-tersier);
+  width: 70%;
+  height: 165px; 
+  max-width: 500px;
+  max-height: 400px;
+  text-align: center;
+}
+button{
+  display: flex;
 }
