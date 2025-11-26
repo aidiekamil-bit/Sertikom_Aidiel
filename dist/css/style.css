@@ -18,11 +18,18 @@
   width: 800px;
   border-radius: 5px;
 }
-.col img {
+.hero .col img {
   margin-right: 100px;
 }
-.gambar img {
-  padding-left: px;
+
+/* Specific fixes for the about/tentang section so image and text sit closer and stay responsive */
+.tentang .gambar img {
+  margin-right: 0;
+  padding-left: 0;
+  max-width: 850px; /* increase allowed image size for larger screens */
+  width: 100%;
+  height: auto;
+  display: block;
 }
 .navbar.scrolling-active {
   background-color: var(--warna-primer);
@@ -89,7 +96,7 @@ button {
   display: flex;
 }
 .label2 div {
-  height: 140px;
+  height: 141px;
   width: 70%;
   background-color: #ffffff1a;
   padding: 30px;
@@ -130,3 +137,5 @@ button {
 .service div {
   transition: 0.5s;
 }
+/* removed global fixed-width for .gambar images to avoid forcing oversized images
+   .tentang .gambar img now controls responsive max-width */
