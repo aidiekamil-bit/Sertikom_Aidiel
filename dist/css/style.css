@@ -1,6 +1,7 @@
 * {
   color: black;
   font-family: "Poppins" sans-serif;
+  font-size: 15px;
 }
 .body {
   color: black;
@@ -25,8 +26,8 @@
 /* Specific fixes for the about/tentang section so image and text sit closer and stay responsive */
 .tentang .gambar img {
   margin-right: 0;
-  padding-left: 0;
-  max-width: 850px; /* increase allowed image size for larger screens */
+  padding-left: 80px;
+  max-width: 800px; /* increase allowed image size for larger screens */
   width: 100%;
   height: auto;
   display: block;
@@ -96,11 +97,10 @@ button {
   display: flex;
 }
 .label2 div {
-  height: 141px;
+  height: 135px;
   width: 70%;
   background-color: #ffffff1a;
   padding: 30px;
-  background-color: #ffffff1a;
 
   text-align: center;
   margin-top: 20px;
@@ -109,7 +109,7 @@ button {
   display: flex;
 }
 .div {
-  width: 10%;
+  width: 170px;
   border-radius: 20px;
   text-align: center;
 }
@@ -139,3 +139,20 @@ button {
 }
 /* removed global fixed-width for .gambar images to avoid forcing oversized images
    .tentang .gambar img now controls responsive max-width */
+.nama {
+  align-items: flex-end;
+}
+.testimoni div {
+  background-color: var(--warna-sekunder);
+  border-radius: 20px;
+}
+.gambar {
+  display: flex;
+}
+.ulasan {
+  background-color: var(--warna-sekunder);
+  border-color: blue;
+}
+.ulasan h5 {
+  justify-content: end;
+}
