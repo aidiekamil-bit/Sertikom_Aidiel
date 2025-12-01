@@ -1,11 +1,11 @@
 * {
   color: black;
   font-family: "Poppins" sans-serif;
-  font-size: 15px;
+  font-size: 14px;
+  box-sizing: border-box;
 }
 .body {
   color: black;
- 
 }
 
 .hero {
@@ -25,21 +25,18 @@
   margin-right: 100px;
 }
 
-
 .tentang .gambar img {
   margin-right: 0;
   padding-left: 80px;
-  max-width: 800px; 
+  max-width: 800px;
   width: 100%;
   height: auto;
   display: block;
 }
 
-
 .navbar.scrolling-active {
   background-color: var(--warna-primer);
   transition: 0.5s;
-  
 }
 .navbar {
   transition: 0.5s;
@@ -63,9 +60,8 @@
 }
 .alasan .col:hover {
   transition: 0.3s ease-in-out;
-  transform:scale(1.05);
-  box-shadow: 0 2px 20px 0 
- color-mix(in srgb, #279ae4 50%, transparent 95%);
+  transform: scale(1.05);
+  box-shadow: 0 2px 20px 0 color-mix(in srgb, #279ae4 50%, transparent 95%);
 }
 .alasan div {
   transition: 0.5s;
@@ -77,25 +73,23 @@
 }
 .label div {
   width: 100%;
-  height:150px;
+  height: 150px;
   border-radius: 15px;
   padding: 40px;
   background-color: color-mix(in srgb, #ffffff1a 100%, transparent 0%);
-  margin-left:0 ;
+  margin-left: 0;
   text-align: center;
-  
-} 
-.label{
-  display: flex;
- 
 }
- /* .label4 {
+.label {
+  display: flex;
+}
+/* .label4 {
   background: var(--warna-tersier);
   text-align: center;
   height: auto;
   width: 70%;
 } */
-.label5 div{
+.label5 div {
   background: var(--warna-tersier);
   width: 90%;
   height: 135px;
@@ -103,16 +97,14 @@
   max-height: 400px;
   text-align: center;
   margin-top: 10px;
-  
-} */
-
-button {
+}
+*/ button {
   display: flex;
 }
 .label2 div {
   height: 135px;
   width: 90%;
-  background-color:color-mix(in srgb, #ffffff1a 100%, transparent 0%);
+  background-color: color-mix(in srgb, #ffffff1a 100%, transparent 0%);
   padding: 30px;
 
   text-align: center;
@@ -123,7 +115,7 @@ button {
 }
 .div {
   width: 170px;
-  border-radius: 20px;
+  border-radius: 10px;
   text-align: center;
 }
 .carousel div {
@@ -142,7 +134,6 @@ button {
 .alasan {
   display: flex;
   justify-content: center;
- 
 }
 .service .col:hover {
   transition: 0.3s ease-in-out;
@@ -177,33 +168,32 @@ button {
 .kata p {
   font-size: 20px;
 }
-.hub .availability:before{
-  content: ""; 
+.hub .availability:before {
+  content: "";
   color: green;
   width: 10px;
   height: 10px;
   border-radius: 50%;
   display: inline-block;
   margin-right: 5px;
-  background:color-mix(in srgb, #279ae4, #10b981 50%); ;
+  background: color-mix(in srgb, #279ae4, #10b981 50%);
 }
 
 .response {
-  background:color-mix(in srgb, #279ae4 , transparent 95%); ;
+  background: color-mix(in srgb, #279ae4, transparent 95%);
 }
-.respon{
-  background:color-mix(in srgb, #279ae4 , transparent 90%); ;
+.respon {
+  background: color-mix(in srgb, #279ae4, transparent 90%);
 }
 .response .emot:before {
   margin-right: 10px;
-  width: 10PX;
+  width: 10px;
 }
 .emot {
   display: flex;
 }
 .emot strong span {
   flex-direction: column;
-  
 }
 .pesan {
   width: 100%;
@@ -214,7 +204,7 @@ button {
   font-size: 16px;
   margin-top: 10px;
 }
-.input-group input{
+.input-group input {
   display: flex;
   background: var(--warna-sekunder);
   border-radius: 10px;
@@ -222,14 +212,28 @@ button {
 .info {
   display: flex;
   justify-content: center;
-  
 }
-.rating{
+.rating {
   background-color: #f3f6f4;
 }
-.logo{
+.logo {
   display: flex;
 }
-.daftar{
-  box-shadow:  0 2px 10px 0 color-mix(in srgb, #279ae480 50%, transparent 95%)
+.daftar {
+  box-shadow: 0 2px 1;
 }
+.error {
+  color: white;
+}
+.warna-putih {
+  color: white;
+}
+.form-grup {
+  margin-bottom: 15px;
+}
+/* @media screen and (max-width: 430px) {
+}
+.kata h1 {
+  padding-top: 100px;
+  font-size: 40px;
+} */
