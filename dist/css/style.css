@@ -60,7 +60,7 @@
 .layanan {
   background: var(--warna-primer);
 }
-.alasan .col-sm-2:hover {
+.alasan .col:hover {
   transition: 0.3s ease-in-out;
   transform: scale(1.05);
   box-shadow: 0 2px 20px 0 color-mix(in srgb, #279ae4 50%, transparent 95%);
@@ -137,7 +137,7 @@ button {
   display: flex;
   justify-content: center;
 }
-.service .col-sm-2:hover {
+.service .col:hover {
   transition: 0.3s ease-in-out;
   box-shadow: 0 2px 20px 0 color-mix(in srgb, white 80%, transparent 95%);
 }
@@ -244,7 +244,7 @@ button {
 }
 @media screen and (max-width: 570px) {
   .satu h1 {
-    font-size: 15px;
+    font-size: 30px;
   }
   .gambar img {
     justify-content: ;
