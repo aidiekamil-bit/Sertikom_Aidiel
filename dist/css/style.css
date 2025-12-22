@@ -1,11 +1,13 @@
 * {
   color: black;
   font-family: "Poppins" sans-serif;
-  font-size: 14px;
+  font-size: 13px;
   box-sizing: border-box;
+  
 }
 .body {
   color: black;
+  margin: ;
 }
 
 .hero {
@@ -21,19 +23,21 @@
   width: 800px;
   height: 200px;
   border-radius: 5px;
-  margin-left: 100px;
+  margin-left: ;
 }
 .hero .col img {
-  margin-right: 100px;
+  margin-right: 00px;
 }
 
 .tentang .gambar img {
   margin-right: 0;
-  padding-left: 0px;
-  max-width: 800px;
-  width: 100%;
-  height: auto;
+  padding-left: px;
+  max-width: 90%;
+  width: ;
+  margin-left: 80px;
+  height: 500px;
   display: block;
+  justify-content: center;
 }
 
 .navbar.scrolling-active {
@@ -42,9 +46,11 @@
 }
 .navbar {
   transition: 0.5s;
+  
 }
 .image {
-  max-width: 100px;
+  width: 100px;
+
 }
 :root {
   --warna-primer: #091121;
@@ -72,10 +78,14 @@
 }
 .navbar div {
   cursor: pointer;
+  
+}
+.container .navbar-brand{
+  margin-right: ;
 }
 .label div {
   width: 100%;
-  height: 150px;
+  height: 140px;
   border-radius: 15px;
   padding: 40px;
   background-color: color-mix(in srgb, #ffffff1a 100%, transparent 0%);
